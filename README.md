@@ -45,6 +45,7 @@ A FastAPI-based expense-sharing application that allows users to manage groups, 
 ```plaintext
 .
 ├── app.py
+├── app.db
 ├── db
 │   └── database.py
 ├── model
@@ -161,6 +162,7 @@ A FastAPI-based expense-sharing application that allows users to manage groups, 
 - **UserGroup**: `id`, `user_id`, `group_id`, `created_at`
 - **Expense**: `id`, `group_id`, `payee_id`, `amount`, `split_type`, `payment_status`, `created_at`
 - **UserExpense**: `id`, `expense_id`, `user_id`, `amount`, `payment_status`, `created_at`
+Using SQLAlchemy ORM with SQLite for in-repo db control
 
 ## Health Check
 
@@ -170,4 +172,5 @@ A FastAPI-based expense-sharing application that allows users to manage groups, 
 - Can use Object Oriented Programming by using classes instead of crud apis for every entity
 - Better response formatting by using return output functions in html_response_codes.py
 - Added features to better clone splitwise
+- Packaging application and Docker deployment.
 - A BETTER DOCUMENTATION!!
