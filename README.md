@@ -174,3 +174,10 @@ Using SQLAlchemy ORM with SQLite for in-repo db control
 - Added features to better clone splitwise
 - Packaging application and Docker deployment.
 - A BETTER DOCUMENTATION!!
+
+## References
+1. ![image](https://github.com/user-attachments/assets/993ac8db-2fa7-4fe2-a074-150bede273e3)
+2. ![image](https://github.com/user-attachments/assets/993c9a73-8044-47ed-a741-9d147de346e3)
+3. ![image](https://github.com/user-attachments/assets/0e9bc9d7-4e6d-420f-b700-8888c3d3d435)
+
+
